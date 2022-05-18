@@ -1,0 +1,539 @@
+DevOps Course Content
+ DevOps
+1. Definition of SDLC
+2. Purpose of SDLC
+3. General Phases of SDLC
+4. Various Models of SDLC
+5. About Waterfall SDLC Model
+6. Waterfall SDLC Model - Advantages
+7. Waterfall SDLC Model - Disadvantages
+8. About Agile SDLC Model
+9. Agile SDLC Model - Advantages
+10. Introduction to DevOps
+11. History of DevOps
+12. What is DevOps
+13. Definition of DevOps
+14. Fundamental Principles of DevOps
+15. Benefits of DevOps
+16. After Implementation
+17. DevOps Roles and Responsibilities
+18. Continuous Integration in DevOps
+AWS Cloud
+1. Brief History of AWS
+2. AWS Features
+3. How to Create Account in AWS
+4. Introduction to EC2
+5. Features of EC2
+6. EC2 Dashboard Overview
+7. About Amazon Machine Images (AMI)
+8. Different types of AMI’s
+9. How to create AWS AMI
+10. How to create a Key Pairs
+11. What is EBS Volumes
+12. Download a key pairs
+13. How to connect EC2 instances
+14. What is pem file
+15. What is ppk file
+16. What are default usernames to 
+connect AMI’s
+17. How to Login into LINUX AMI 
+18. How to reboot the Instance
+19. How to stop instance
+20. How to terminate instance
++91 7680818714 www.saidemy.com
++91 7680818714 www.saidemy.com
+Unix/Linux
+1. Introduction to Unix/Linux
+2. Unix flavors
+3. Linux Flavors
+4. Why Linux?
+5. Advantages of Unix/Linux
+6. Architecture of Linux
+7. File system hierarchy
+8. cat (create & append file)
+9. touch (create blank file)
+10. nano (create & edit file)
+11. vi/vim (create & edit file)
+12. ls (list) (-a, -la)
+13. cd (change directory)
+14. pwd (print working directory)
+15. mkdir (create directory, multiple)
+16. cp (copy)
+17. mv (move)
+18. mv (rename)
+19. rm (remove file)
+20. tree (see in tree structure)
+21. rm -rf(remove directory & recursive)
+22. grep (pick & print)
+23. less (see output)
+24. head (see top 10 lines)
+25. tail (see last 10 lines)
+26. sort (display in Alphabetic/Numeric 
+order)
+27. User creation
+28. Group creation
+29. Soft Link (shortcut)
+30. Hard Link (backup)
+31. tar (to pack)
+32. gz (to compress)
+33. yum (to install)
+34. wget (to download)
+35. File/Directory Permissions:
+36. chmod (permissions)
+37. chown (owner)
+38. chgrp (group)
+39. hostname (to see hostname)
+40. ifconfig (to get ip address)
+41. cat /etc/*rele* (to get os version)
+42. yum commands
+43. rpm commands
+44. service commands
+45. chkconfig commands
+46. Redirection (redirecting output)
+47. which (to see package installed or not)
+48. sudo (to get root privileges)
+49. whoami (to see user)
+50. find commands
+Learn More to Earn More ..Hari
++91 7680818714 www.saidemy.com
+ Git
+1. Source code management
+2. Version control system/Revision control 
+system
+3. SCM tools
+4. Repository/Depot
+5. Server
+6. Work space/Work dir/Work tree
+7. Branch/Trunk/Code line 
+8. Commit/Check-in
+9. Version/Version-ID/Commit-ID
+10. Tag
+11. Advantages of Git
+12. Git Snapshots
+13. Work space
+14. Staging area
+15. Buffer area
+16. Repository (Local/non-bare)
+17. Repository (Central/bare)
+18. Installation & configuration
+19. Git add
+20. Git commit
+21. Git log
+22. Git push
+23. Git status
+24. Git ignore
+25. Git branch
+26. Git checkout
+27. git merge 
+28. Git Snapshots
+29. Git conflict
+30. Git stash
+31. Git reset
+32. Git revert
+33. Repository (Central/bare)
+34. Git remove
+35. Git clean
+36. Git tag
+37. Git fetch
+38. Git diff
+39. Git cherry-pick
+40. Git hub
+41. Role of Git in Real Time
+42. Git installation on Windows and Screen shots
+43. Git installation on Linux
+44. Git Architecture
+45. What is Git Repository
+46. Git with Local Repositories
+47. Git with Remote Repositories
+48. git config command usage
+49. Setup git repository using git init
+50. Git Making Changes
+51. git status color coding system
+52. Exercises on adding single files, multiple files 
+commits
+53. Committing Changes in one go
+54. Git History - log and show
+55. View all commit logs
+56. View only latest commit logs
+57. git show command
+58. Comparing git project files from working area 
+with Local Repo using git diff
+59. Git diff –staged
+60. git remote commands
+61. Introduction to Github
+62. Various vendors of Remote Repository
+63. Features of github
+64. Create Account in github
+65. Create Project Repository in github
+66. Public Repository
+67. Private Repository
+68. Create files in github
+69. Clone Github Repository
+70. Pull changes from github Repository
+71. Push changes to github Repository
+Learn More to Earn More ..Hari
++91 7680818714 www.saidemy.com
+ Docker
+1. What is Container
+2. Docker features
+3. Docker history
+4. Docker usage
+5. Docker Architecture
+6. Docker Editions
+7. Docker system Requirements
+8. Docker installation and setup
+9. How to verify docker installation
+10. About Docker version
+11. OS-Level-Virtualization
+12. Layered file system
+13. VM Ware vs Docker
+14. Docker components
+15. Docker workflow
+16. Docker benefits
+17. Docker images
+18. Docker Container
+19. Docker file
+20. Docker hub/registry
+21. Docker daemon
+22. Docker Install & Configure
+23. Docker all commands
+24. Docker Volumes
+25. Volume (container-container)
+26. Volume (Host- Container)
+27. Port mapping
+28. Registry server
+29. Pull/push images from /to registry
+30. CMD
+31. RUN
+32. ENTRYPOINT
+33. Introduction to Docker
+34. Why docker
+35. Relation between container and docker
+36. Why docker is so popular
+37. Difference between container and image
+38. Containers History
+39. How to see list images in docker
+40. What is Docker Registry
+41. How to see all docker images
+42. How to pull images from docker registries
+43. What is pulling in docker?
+44. Difference between Docker Pull, run, Push
+45. How to run docker image
+46. How to exit from container without killing it
+47. How to exit from container by killing it
+48. How to see all running container on docker 
+host
+49. How to check the history of all containers
+50. How to stop a container that is running
+51. How to find latest containers that are created
+52. How to get inside of already a running 
+container
+53. How to start a container and remove it once 
+task is completed
+54. How to delete or remove a container
+55. How to delete or remove image from docker 
+host
+56. How to attach a port of docker host to docker 
+container
+57. How to run a container in background
+58. Difference between docker container run and 
+docker container start
+59. How to specify a name to docker container
+60. How to see container logs
+61. How to see all commands related to a 
+container
+62. How to remove docker multiple containers
+63. How to check docker container metadata using 
+docker inspect
+64. How to list what ports are being used by 
+docker container
+65. How to tags docker images
+66. How to log into docker registries using docker 
+CLI
+67. How to logout from docker registries using 
+docker CLI
+68. How to push docker image to docker registries
+69. About Docker file
+70. How to create Dockerfile to build an image
+71. How to build an image from Dockerfile
+72. About Dockerfile Instructions
+Learn More to Earn More ..Hari
++91 7680818714 www.saidemy.com
+ Ansible
+1. Configuration Management tool
+2. Introduction To Ansible
+3. History
+4. Advantages of CM tool
+5. Why Ansible
+6. Ansible Advantages
+7. Ansible Architecture setup
+8. Install & configure Ansible
+9. Features Of Ansible
+10. Use Cases Of Ansible
+11. What Can Do In Production Environment
+12. Ansible Documentation
+13. How Ansible Is Different From Configuration 
+Management Tools
+14. Ansible Architecture
+15. Ansible Control Machine Requirements
+16. Ansible Installation Process
+17. Ansible Terminologies
+18. How Ansible Works
+19. Ansible Lab-setup
+20. Ansible Inventory
+21. Test Environment setup
+22. Host Patterns
+23. Ad-Hoc commands
+24. Modules
+25. Gathering facts
+26. Playbooks
+27. YAML Language
+28. Target section
+29. Variable section
+30. Task section
+31. Handle section
+32. Dry run
+33. Loops
+34. Conditionals
+35. Vault
+36. Representation Of Dictionary In Yaml
+37. Representation Of List In Yaml
+38. Group Inventory File
+39. Ansible Inventory Parameters
+40. Ansible Exercise - To Setup Inventory File And 
+Perform Ping Test
+41. Ansible Playbooks and Modules
+42. Ansible Playbooks
+43. Sample Ansible Playbook
+44. Ansible Playbook Format
+45. Ansible Modules
+46. Ansible Tasks
+47. How To Run A Playbooks
+48. How to check the syntax of a Playbook
+49. How to Run a playbook on multiple hosts
+50. How to Run a playbook on target hosts
+51. Ansible Run Command Methods
+52. Install Tomcat
+53. Install Jenkins
+54. Ansible Roles
+Learn More to Earn More ..Hari
++91 7680818714 www.saidemy.com
+Maven
+1. What is Build
+2. Purpose of Build Tools
+3. Build Tools Ideology
+4. Evolution of Build Tools
+5. Few Notable Build Tools
+6. Java Based Build Tools
+7. Build management
+8. Advantages of Build tool
+9. Architecture of Maven
+10. Maven build life-cycle
+11. Maven directory structure
+12. Maven repositories
+13. Pom.xml
+14. Multi module project(over view)
+ Terraform
+1. What is terraform
+2. What are the advantages of terraform
+3. why we have to use terraform
+4. What is IAC?
+5. what are the advantages of IAC?
+6. list of cloud providers
+7. what are the cloud providers support 
+terraform 
+8. how to download terraform software
+9. Terraform installation on windows & Linux 
+Servers
+10. how to set terraform path temporarily and 
+permanently
+11. What is IAM in AWS? 
+12. How to create IAM user?
+13. how to launch windows instance 
+14. how to launch linux instance
+15. creation of S3 bucket
+ Cloud Watch
+1. What is Cloud Watch
+2. Why to monitor
+3. What is default monitoring
+4. What is detailed monitoring
+5. Time interval
+6. Why only cloud watch
+7. How to see metrics
+8. Creating Alarms
+9. Creating Graphs
+10. Line
+11. Stacked
+12. Number
+13. Text
+14. Create Billing Alarm
+15. Deleting Billing Alarm
+Learn More to Earn More ..Hari
++91 7680818714 www.saidemy.com
+ 
+ Jenkins
+1. Introduction to Jenkins
+2. Why Jenkins
+3. Relation between Jenkins and Hudson
+4. History of Jenkins
+5. Why Jenkins is so popular
+6. Features of Jenkins
+7. Jenkins Architecture
+8. Jenkins Prerequisites
+9. Continues Integration(CI)
+10. Jenkins workflow
+11. Ways of CI
+12. Benefits of CI
+13. Why only Jenkins
+14. Git for Windows
+15. Java installation & configuration
+16. Maven installation & Configuration
+17. Jenkins installation & configuration
+18. Free style project
+19. Maven project by maven
+20. Maven project by Jenkins
+21. Jenkins Plugins
+22. Scheduled Projects
+23. Source code polling (Git)
+24. Related/Linked projects
+25. Upstream & Downstream projects
+26. CI-CD pipeline
+27. Jenkins Views
+28. User management
+29. Jenkins Slaves
+30. Tomcat web server
+31. Minimum Hardware Requirements
+32. Recommended Hardware Requirements
+33. Setup Environment Variables
+34. Jenkins Terminologies
+35. Master
+36. Slave or Node
+37. Job or Project
+38. Executor
+39. Build
+40. Plugin
+41. Jenkins Dashboard Overview
+42. Job Listing Section
+43. Setup Jenkins Server
+44. Jenkins Menu Section
+45. Jenkins Menu- Item
+46. Jenkins Menu-People
+47. Jenkins Menu-Build History
+48. Jenkins Menu-Manage Jenkins
+49. Jenkins Menu-views
+50. Build Queue Section
+51. Build Executor status Section
+52. Jenkins - Creating Jobs in Jenkins
+53. Naming a Project 
+54. About Project Descriptions
+55. How to disable the build systems
+56. Source Code Management
+57. Build Triggers
+58. Create a Sample Project
+59. Understand Jenkins Job Process
+60. How to check Build Information
+61. Jenkins Build Color Code system
+62. Configure Jenkins Build Server
+63. Configure Java JDK for Jenkins Build Server
+64. Configure Apache Maven for Jenkins Build 
+Server
+65. Configure the JAVA JDK for Build jobs in 
+Jenkins
+66. Configure the Maven for Build Jobs in Jenkins
+67. Configure Github for Build Jobs in Jenkins
+68. Configure SCM-Git Plugin for Build Jobs in 
+Jenkins
+69. Secure Jenkins
+70. Manage Jenkins Plugins
+71. Install Plugins
+72. Upgrade Plugins
+73. Backup plugins
+74. Jenkins User administration
+75. Create Jenkins User Accounts
+76. Delete Jenkins User Accounts
+77. How to change the Jenkins Admin Password
++91 7680818714 www.saidemy.com
+Learn More to Earn More ..Hari
+78. Change Home Directory
+79. Configure - Executors, Labels, SCM Checkout 
+Retry Count
+80. Build Triggers
+81. Configure Poll Source Code management in 
+Jenkins
+82. Configure Poll SCM Changes using Crontab in 
+Jenkins
+83. Trigger Builds Remotely using URL
+84. Trigger Builds based on build Pipeline or other 
+Projects
+85. Build triggers Periodically
+86. Build triggers when changes pushed to Github 
+or SCM
+87. Architecture of Distributed Build
+88. Configure Jenkins Master Server
+89. Configure Jenkins Slave Server
+90. Configure authentication between MasterSlave
+91. Setup Relationship between Master and Slave
+92. Configure Project to build on Jenkins slave 
+server
+93. Email Notifications in Jenkins
+94. Purpose of Email Notification
+95. Email Notification plugins
+96. CI-CD Pipeline Project
+Kubernetes
+1. What is kubernetes
+2. Features of kubernetes
+3. Architecture of kubernetes
+4. Kubernetes Master
+5. Kubernetes nodes
+6. Kubernetes components
+7. Kube-api server
+8. etcd (cluster store)
+9. Kube-scheduler
+10. Node
+11. Kube-proxy
+12. Kubelet
+13. pods
+14. Multi container pod
+15. Pod limitations
+16. Replica sets
+17. Deployments
+18. Installation of Kubernetes
+Tomcat Application Server
+1. Installation 
+2. Configuration
+3. Tomcat manager
+4. Application management
+5. App deployment methods
+Apache Web Server
+1. Installation 
+2. Types of web packages
+3. Configuration
+4. Directory Structure
+5. Index file
+6. Starting service
+7. Enabling Service 
+ 
++91 7680818714 www.saidemy.com
+Learn More to Earn More ..Hari
+ 
+ 
+ Projects
+ DevOps Real time project - 1
+ DevOps Real time project - 2
+ CI-CD Pipeline projects
+ Interview questions (Technical, Manager & HR)
+ Resume preparation & Evaluation
+ Real time Scenarios
+ Day-to Day activities
+ Provide Material
+ My way of Teaching
+ Theoretical Knowledge
+ Practical Knowledge
+ Interview & Exam Points
+ Provide material
+ Resume preparation (Fresher’s & Experience)
+ Provide project
+ Interview cracking tips
+ 
+:wq
+
