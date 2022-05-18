@@ -1,2 +1,149 @@
-hi
+                       ANSIBLE INSTALLATION PROCESS
+     -------------------------------------------------------------
+                        CLASS-2              CLASS-3
+
+1.EPCL REPO CLICK --- typing to google
+
+2.yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+3.yum install epel-release-latest-7.noarch.rpm
+4.yum updated -y and yum list ansible
+5.ansible -version
+6.config file etc/ansible/ansible.cfg
+7.vi /etc/ansible/ansible.cfg ==== INVENTORY ==/etc/ansible/hosts--------sudo_user==root 
+8.vi /etc/ansible/ (----ansible.cfg  hosts)
+9.vi /etc/ansible/hosts ------create groups
+
+  GROUP NAME
+----------------------------------
+   GROUP NAME------WEBSERVER	                                one common user create
+   hosts h1-ipv4 ----address num type			    -------------------------------
+   hosts h2-ivp4-----address num type                           1.ansible user    -------------------  ROOT
+								2.password        ---------------------ROOT
+   USER ADDS---(ROOT USERS WORKING)			        3.sudo priviliges ---------------------ROOT
+--------------------------------------				4.sudo connecting (passwrd required) --ROOT
+   useradd ansible    h1-useradd      h2-useradd		5.ssh connection (passwrd remove) -----ANSIBLE USER
+   passwad-ansible    passwad-ansible passwad-ansible
+
+              ROOT USER SWITCH TO ANSIBLE USER 
+           ---------------------------------------
+su - ansible
+ls
+mkdir  ansible
+touch file
+which httpd
+yum install httpd -y
+sudo yum install httpd -y
+
+      ROOT USERS PERMISSION TO ANSIBLE USERS PERMISSION-------(WORKING ON ROOT USERS)
+-------------------------------------------------------------------------------------
+visudo----Enter                            HOST-H1                                 HOST-H2
+               						
+root    ALL=(ALL)        ALL   	           root    ALL=(ALL)        ALL            root    ALL=(ALL)        ALL
+ansible ALL=(ALL)     NOPASSWD: ALL        ansible ALL=(ALL)     NOPASSWD: ALL     ansible ALL=(ALL)     NOPASSWD: ALL        
+ansible ALL=(ALL)     NOPASSWD: ALL        ansible ALL=(ALL)     NOPASSWD: ALL     ansible ALL=(ALL)     NOPASSWD: ALL 
+
+	ROOT USER SWITCH TO ANSIBLE USER
+   ------------------------------------------------
+su - ansible
+sudo yum install httpd -y                      
+sudo yum remove httpd -y
+
+[all files are configuraions in side folders----------vi /etc/ssh/sshd_config]
+
+root users permissio-----vi /etc/ssh/sshd_config
+   #PermitRootLogin yes
+
+ls -a hidden files
+cd .ssh/
+ls----list [or]-- ll
+cat means see data 
+cat authosired_keys
+vi .ssh/authosired_keys
+
+  SYSTEM RESTART 
+----------------------
+systemctl restart sshd ======succesful
+service sshd restart
+
+
+ -----------key-zen ---------------
+pwd
+ls -a    (ansible ec2-user)
+cd ansible/
+ls -a
+ls /home/ansible.ssh  or cd .ssh/
+cd ..
+ssh-keyzen
+cat /home/ansible/.ssh/id_rsa
+cat /home/ansible/.ssh/id_rsa.pub
+
+SERVER DATE COPY TO HOSTS
+-------------------------
+
+
+      PLAYBOOK
+---------------------
+---------------------
+ 1-TEST FILE
+--------------
+vi test.yml
+ --- # my test demo playbook
+ - hosts: venky
+   tasks:
+     - name: installing httpd on venky
+       action: yum pkg=httpd state=installed
+     - name: installing mysql db server
+       action: yum pkg=mysql state=installed
+
+2-TARGET
+------------
+vi target.yml
+--- # my target playbook
+- hosts: venky
+  user: ansible
+  become:yes
+  conection: yes
+  tasks:
+    
+3-TASKS
+-------------
+vi tasks.yml
+--- # my tasks playbook
+- hosts: venky
+  user: ansible
+  become: yes
+  connection: ssh
+  tasks:
+   - name: installing in httpd
+     action: yum name=httpd state=installed
+     ignore_errors: yes
+
+4----VARIABLES
+---------------------
+vi vars.ym;
+--- # my variabls playbook
+- hosts: venky
+  user: ansible
+  become: yes
+  connection: ssh
+
+  vars:
+
+        pkgname: httpd
+
+  tasks:
+         - name: install httpd on venky
+           action: yum name='{{pkgname}}' state=installed
+
+
+
+
+
+
+
+
+
+
+ 
+
 
