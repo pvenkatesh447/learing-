@@ -1,0 +1,64 @@
+WHAT IS DOCKET
+--------------------------------------------------------------------------------------------------------------------------------------
+docker is open source containeer contarization 
+developer to package application into container standarized executable components that combination app source all operating system
+
+1.docker is a international is transport import and export 
+2.docker is container container means box
+3,container means computer
+
+IMPORTANT ROLE FOR DOCKER
+--------------------------------------------------------------------------------------------------------------------------------------
+3types
+1.os-level virtulazations---------- vm role and docker role
+2.union files systems ------------ can't do anything share
+3.layered architectures------------can do anthing share
+
+DOCKER BENEFITS
+--------------------------------------------------------------------------------------------------------------------------------------
+*containerzation (os/level virtualazation) (need guest os)
+*no pre-allocation of ram
+*can replicate same enviroment 
+*less weight and fast to fireup can ru on phycial virtual cloud
+
+DOCKER COMPONENT
+--------------------------------------------------------------------------------------------------------------------------------------
+docker image:container very small and allmost negligible software
+docker container: container mechine which is create from docker image
+docker file: describle stpes to create docker image
+
+DOCKER INSTALLATION
+yum install docker -y
+service docket start
+service docke status
+docker --version
+COMMANDS
+--------------------------------------------------------------------------------------------------------------------------------------
+docker info -------- information all dockers content
+docker image-------- all dockers images content 
+docker ps -------- dockers process list
+docker ps -a dockers running and stop containers
+CONTAINET LIST CREATE
+--------------------------------------------------------------------------------------------------------------------------------------
+docker run -it ubuntu /etc/bash
+docker run -it ubuntu /etc/bash
+cat /etc/os -release creare ubuntu contaibner
+cat /etc/os - release
+docker run -it chef/chefdk /bin/bash---------- download chef
+cat /etc/os -release
+docker pull jenkins/jenkins
+
+DOCKER FILE RENAME----
+--------------------------------------------------------------------------------------------------------------------------------------
+docker rename (container name are contianer id)
+docker rename recursing_core "devops content"
+
+CONTAINER START AND STOP DELEATE
+--------------------------------------------------------------------------------------------------------------------------------------
+docker start container are and id
+docker stop  continer are and id
+docker rm container id are name
+
+
+ 
+
