@@ -1,0 +1,8 @@
+git sample working
+git add .
+git commint -m git
+git status
+git log
+git --oneline
+git status
+
